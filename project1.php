@@ -27,6 +27,8 @@
 	<form>
 
 		<input type="text" name="name" />
+		<input type="text" name="name_one" />
+		<input type="submit" name="are davai !"/>
   
 	</form>
 	
