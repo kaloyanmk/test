@@ -20,6 +20,9 @@
    {
      document.write(i+" ");
    }
+	    
+	document.getElementById('project').style.backgroundColor="red";
+	    document.getElementById('project').innerHTML="testing";
  </script>
 	<form>
 
