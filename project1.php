@@ -21,6 +21,12 @@
      document.write(i+" ");
    }
  </script>
+	<form>
+
+		<input type="text" name="name" />
+  
+	</form>
+	
   </body>
 
 </html>
