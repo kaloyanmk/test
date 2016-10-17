@@ -5,6 +5,13 @@
   </head>
 
 <body>
+  <style>
+#project{
+	border: 1px solid black;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+</style>
   
   <div id="project">This out project!!!</div>
     +<script type="text/javascript">
