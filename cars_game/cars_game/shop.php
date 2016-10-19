@@ -48,17 +48,23 @@
   </html>
 <?php
       if(isset($_POST['e_upgrade'])){
-            header('Location: shop_e.php');
+        $data='engine';
+        $_SESSION['data']=$data;
+            header('Location: shop_all.php', $data);
 
           
       }
       if(isset($_POST['b_upgrade'])){
-            header('Location: shop_b.php');
+        $data='brakes';
+         $_SESSION['data']=$data;
+            header('Location: shop_all.php', $data);
 
           
       }
       if(isset($_POST['a_upgrade'])){
-            header('Location: shop_a.php');
+        $data='acceleration';
+         $_SESSION['data']=$data;
+            header('Location: shop_all.php', $data);
 
           
       }

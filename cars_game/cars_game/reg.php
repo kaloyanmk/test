@@ -42,6 +42,8 @@ if($_POST['user_reg_pass']==$_POST['user_reg_pass_check']){
 		$name_user=$_POST['user_reg_name'];
 		$pass_user=$_POST['user_reg_pass'];
 mysqli_query($conn,"INSERT INTO `player`(`user_id`, `user_name`, `user_pass`, `car`, `lvl`, `money`) VALUES ('','$name_user','$pass_user','1','1','300')") ;
+mysqli_query($conn,"INSERT INTO `my_car`(`owner`, `name`, `engine`, `brakes`, `acceleration`, `img`) VALUES ('$name_user','lambo','1','1','1','img')") ;
+
 echo"Successfully registered !!!";
 }
 }
